@@ -13,7 +13,7 @@ $(document).ready(function()
 	//ADD FOOTER
 	$('#header').empty();
 	$(function()
-	{$('#header').append('<center><h1>Advnaced Visual Frameworks Launch Page Week 1</h1></center>');});
+	{$('#header').append('<center><h1>AVF Launch Page</h1></center>');});
 	console.log("Header Is Loaded");
 
 	//ADD FOOTER
