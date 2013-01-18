@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/Users/willsonayotte/Desktop/AVF/week1/appsDROID/.metadata/.plugins/org.eclipse.jdt.core
+3965412444.index
+4007850565.index
+101456507.index
