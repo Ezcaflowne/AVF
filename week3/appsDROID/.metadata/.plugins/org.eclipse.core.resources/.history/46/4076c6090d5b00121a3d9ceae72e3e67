@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+    
+<!-- 
+Willson Ayotte
+Full Sail University
+Advanced Visual Frameworks
+Week 1 Project 1 
+-->
+    
+<html lang="en">
+	<head>
+		<title>AVF Launch Page</title>
+
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+
+		<!--  Mobile viewport optimized -->
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- JQM Style Sheet -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+
+		<!-- Modernizr -->
+		<script src="js/modernizr.custom.min.js"></script>
+
+		<!-- style sheet-->
+		<link rel="stylesheet" href="css/styles.css" />
+
+	</head>
+
+	<body>
+	<div data-role="page" id="home" data-theme="d" data-add-back-btn="true">
+		<div data-role="header" id="header"></div>
+		<div data-role="content">
+
+			<section class="left_side">	
+			
+				<ul>
+					<li class="list-divider">Personl Info</li>
+					<li>
+						Willson Ayotte<br>
+						AVF0113<br>
+						Full Sail University<br>
+						Advanced Visual Frameworks<br>
+						Ezcaflowne@fullsail.edu<br>
+					</li>
+				</ul>
+
+				<ul>
+					<li class="list-divider">GitHub Links</li>
+
+					<li>
+						CRUD: <br /><a href="https://github.com/Ezcaflowne/AVF/tree/master/week1/wk1_crud">github</a>  
+									<a href="http://ezcaflowne.github.com/AVF/week1/wk1_crud/index.html">gh-pages</a>
+									<a href="https://ezcaflowne.cloudant.com/project4/_design/app/index.html">Cloudant</a><br />
+						AVF:  <br /><a href="https://github.com/Ezcaflowne/AVF/tree/master/week1">github</a> 							<a href="http://ezcaflowne.github.com/AVF/week1/appsIOS/www/index.html">gh-pages</a>
+					</li>
+				</ul>
+
+				<ul>
+					<li class="list-divider">IOS / Android Native Feature Demos</li>
+					<li><div id="ios_android"></div>Geolocation</li>
+					<li><div id="ios_android"></div>Notifications</li>
+					<li><div id="ios_android"></div>Acclerometer</li>
+					<li><div id="ios"></div>Media</li>
+					<li><div id="ios"></div>Camera</li>
+					<li><div id="ios">Storage</div></li>
+				</ul>
+			</section>
+
+			<section class="right_side">
+				<ul>
+					<li class="list-divider">Research</li>
+					<li>Week One Discussion</li>
+					<li>Week Two Discussion</li>
+					<li>Week Three Discussion</li>
+					<li>Week Four Discussion</li>
+				</ul>
+
+				<ul>
+					<li class="list-divider">Reflection Videos</li>
+						<li>
+							Week One Reflection
+						</li>
+						<li>
+							Week Two Reflection
+						</li>
+						<li>
+							Week Three Reflection
+						</li>
+						<li>
+							Week Four Reflection
+						</li>
+					</ul>
+
+					<ul>
+					<li class="list-divider">JSON-P Data APIs</li>
+						<li>
+							ModMyi Forum API
+						</li>
+						<li>
+							702WarMachines Forum API
+						</li>
+						<li>
+							Stock Market API
+						</li>
+						<li>
+							Crud Twitter API
+						</li>
+					</ul>
+			</section>
+
+		</div>
+
+		<div data-role="footer" id="footer" data-position="fixed"></div>
+	</div>
+
+	<!--jquery and jquery mobile-->
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+
+	<!--javascript-->	
+	<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>

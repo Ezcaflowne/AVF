@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <script type="text/javascript" charset="utf-8"></script>
+    <meta type="robots" content="index,follow" />
+
+    <!--  Mobile viewport optimized -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ClearType for smoothing fonts -->
+    <meta http-equiv="cleartype" content="on">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+
+    <title>Notification Demo</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/modernizr.foundation.js"></script>
+
+    <script type="text/javascript" src="cordova-2.3.0.js"></script>
+
+
+
+
+</head>
+
+    <body >
+
+	   <h1>Notification Demo</h1><br/>
+
+            <h1 class="info">Toggle Control</h1>
+            <span><a class="span" onclick="toggleCompass();">Press here to start / stop compass</a></span> <br/>
+            <h1>Current Position : One time reading</h1>
+            <span><a class="button" onclick="getCurrentHeading();">Press here to get current heading</a></span><br />
+
+            <h1> Current Readings</h1>
+            <span>Compass Heading: <b id="heading"> </b></span>
+
+            <a href="index.html"><h4>Home</h4></a>
+
+        <script src="js/compass.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+
+    </body>
+
+</html>
