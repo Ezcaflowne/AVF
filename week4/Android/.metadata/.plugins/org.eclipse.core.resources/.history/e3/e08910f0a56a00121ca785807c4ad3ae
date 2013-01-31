@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <script type="text/javascript" charset="utf-8"></script>
+    <meta type="robots" content="index,follow" />
+
+    <!--  Mobile viewport optimized -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ClearType for smoothing fonts -->
+    <meta http-equiv="cleartype" content="on">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+
+    <title>Notification Demo</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/modernizr.foundation.js"></script>
+
+    <script type="text/javascript" src="cordova-2.3.0.js"></script>
+
+
+
+
+</head>
+
+
+<body>
+
+    <div id="camera">
+    <button class="camera-control" onclick="capturePhoto();">Capture Photo</button>
+    <div style="text-align:center;margin:20px;">
+        <img id="cameraPic" src="" style="width:auto;height:120px;"></img>
+    </div>
+    </div>
+
+<div id="photo">
+    <img height="300" width="300" id="smallImage" src="" />
+</div>
+       
+
+        <a href="index.html"><h4>Home</h4></a>
+
+        <script src="js/camera.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+
+    </body>
+
+</html>

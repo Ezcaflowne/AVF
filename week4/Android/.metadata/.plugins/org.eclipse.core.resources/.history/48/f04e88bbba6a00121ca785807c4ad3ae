@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GeoLocation Demo</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript">
+</script><script src="js/geolocation.js" type="text/javascript">
+</script>
+
+</head>
+
+<body>
+    <h1>Geolocation Demo</h1>
+    <span>Native on iOS and Android</span>
+
+    <p id="geolocation">Locating your position...</p>
+
+</body>
+
+<a href="index.html"><h4>Home</h4></a>
+
+    <footer><strong>Willson Ayotte - Full Sail University - AVF1301</strong></footer><br />
+
+    <script type="text/javascript" src="cordova-2.3.0.js">
+</script><script type="text/javascript" src="js/jquery.js">
+</script>
+</body>
+</html>

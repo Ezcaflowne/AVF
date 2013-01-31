@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Compass Demo</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="js/modernizr.foundation.js"></script>
+
+    <script type="text/javascript" src="cordova-2.3.0.js"></script>
+
+
+
+
+</head>
+
+    <body>
+
+        <h1 class="mainHead">Compass Demo</h1><br/>
+
+        <h1 class="info">Toggle Control</h1>
+            <button onclick="toggleCompass();">Tap to start / stop compass</button><br/>
+        <h1 class="info">Current Position : One time reading</h1>
+            <button onclick="getCurrentHeading();">Tap to get heading</button><br />
+        <h1 class="info">Current Readings</h1>
+            <span id="advSpan">Compass Heading: <b id="heading"> </b></span><br /><br />
+
+        <a href="index.html"><img src="images/53-house.png" id="home"></a><br />
+
+        <footer><strong>Willson Ayotte - Full Sail University - AVF1301</strong></footer><br />
+
+        <script src="js/compass.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+
+    </body>
+
+
+</html>

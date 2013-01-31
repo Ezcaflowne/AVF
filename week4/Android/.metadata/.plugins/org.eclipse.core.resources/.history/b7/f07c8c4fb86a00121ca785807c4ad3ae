@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta charset="utf-8">
+        <meta name="description" content="Description">
+        <meta name="keywords" content="Concert, Music, CRUD, FullSail">
+        <meta name="robots" content="index, follow">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Demo App</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script type="text/javascript" src="js/modernizr.foundation.js"></script>
+
+
+
+<script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+    </head>
+
+    <body>
+        <div data-role="page" id="home" data-theme="d" data-add-back-btn="true">
+            <div data-role="header" id="header"></div>
+            <div data-role="content">
+                
+                <section class="left_side">
+                    
+                    <ul>
+                        <li class="list-divider">Personal Info</li>
+                        <li>
+                            Willson Ayotte<br>
+                            AVF1301<br>
+                            Full Sail University<br>
+                            Advanced Visual Frameworks<br>
+                            Ezcaflowne@fullsail.edu<br>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="list-divider">GitHub Links</li>
+                        
+                        <li>
+                            CRUD: <br /><a href="https://github.com/Ezcaflowne/AVF/tree/master/week1/wk1_crud">github</a>
+                            <a href="http://ezcaflowne.github.com/AVF/week1/wk1_crud/index.html">gh-pages</a><br />
+                            AVF:  <br /><a href="https://github.com/Ezcaflowne/AVF/tree/master/week1">github</a>
+                            <a href="http://ezcaflowne.github.com/AVF/week1/appsIOS/www/index.html">gh-pages</a>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="list-divider">IOS / Android Native Feature Demos</li>
+                        <li><a href="geolocation.html">Geolocation</a></li>
+                        <li><a href="notification.html">Notification: Alert</a></li>
+                        <li><a href="acclerometer.html">Acclerometer</a></li>
+                        <li><a href="compass.html">Compass</a></li>
+                        <li><a href="camera.html">Camera</a></li>
+                        <li><a href="storage.html">Storage</a></li>
+                    </ul>
+                </section>
+                
+                <a href="index.html"><h4>Home</h4></a>
+
+    <footer><strong>Willson Ayotte - Full Sail University - AVF1301</strong></footer><br />
+                
+                <section class="right_side">
+                    <ul>
+                        <li class="list-divider">Research</li>
+                        <li><a href="discuss1.html" data-rel="dialog">Data Research, Project Intent</a></li>
+                        <li><a href="discuss2.html" data-rel="dialog">Accessibility</a></li>
+                        <li><a href="discuss3.html" data-rel="dialog">Industry Research</a></li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="list-divider">Reflection Videos</li>
+						<li>
+							<a href="video1.html">Week One Reflection</a>
+						</li>
+						<li>
+							<a href="video2.html">Week Two Reflection</a>
+						</li>
+                        <li>
+                            <a href="video3.html">Week Three Reflection</a>
+                        </li>
+					</ul>
+                    
+					<ul>
+                        <li class="list-divider">JSON-P Data APIs</li>
+						<li>
+                            <a href="twitter.html" data-backbutton="true">Titter API</a>
+						</li>
+						<li>
+							<a href="flickr.html" data-backbutton="true">Flicker API</a>
+						</li>
+					</ul>
+                </section>
+                
+            </div>
+            
+            
+        </div>
+</body>
+
+
+    <script type="text/javascript" src="cordova-2.3.0.js"></script>
+    	<script type="text/javascript" src="js/jquery.js"></script>
+    	<script type="text/javascript" src="js/foundation.min.js"></script>
+
+</html>

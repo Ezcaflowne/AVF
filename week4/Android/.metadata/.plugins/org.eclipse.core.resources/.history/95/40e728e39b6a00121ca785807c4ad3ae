@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="description" content="Description">
+    <meta name="keywords" content="Concert, Music, CRUD, FullSail">
+    <meta name="robots" content="index, follow">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Api Explorer</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/modernizr.foundation.js">
+</script>
+</head>
+
+<body>
+    <!-- Main Launch Page with api options -->
+    <img src="img/bigLogo.png" alt="logo" height="80"><br style="clear: left;">
+
+    <div style="float: left; width: 42%;">
+        <h1>Native Function</h1><!-- API Listing --><span>iOS and Android</span> <a href="accel.html"><img src="img/accel.png" height="40" alt=""></a> <a href="geolocation.html"><img src="img/geo.png" height="40" alt=""></a> <a href="compass.html"><img src="img/compass.png" height="40" alt=""></a> <a href="notification.html"><img src="img/notification.png" height="40" alt=""></a>
+    </div>
+
+    <div style="float: right; width: 42%;">
+        <h1>Videos</h1><span>Progession</span> <a href="week1video.html"></a> <a href="week1video.html"><img src="img/week1video.png" height="40" alt=""></a> <a href="week2video.html"><img src="img/week2video.png" height="40" alt=""></a> <a href="week3video.html"><img src="img/week3video.png" height="40" alt=""></a> <a href="week4video.html"><img src="img/week4video.png" height="40" alt=""></a>
+    </div>
+
+    <div style="float: left; width: 42%;">
+        <h1>JSON Data</h1><span>Public API's</span> <a href="twitterApi.html"><img src="img/twitter.png" height="40" alt=""></a> <a href="flikrAPI.html"><img src="img/flickr.png" height="40" alt=""></a> <a href="jailbaseApi.html"><img src="img/jailbase.png" height="40" alt=""></a>
+    </div><!-- Need to add research data section here -->
+
+    <div style="float: right; width: 42%; ">
+        <h1>Research Data</h1><span>Industry / Api</span> <a href="week1research.html"><img src="img/week1research.png" height="40" alt=""></a> <a href="week2research.html"><img src="img/week2research.png" height="40" alt=""></a> <a href="week3research.html"><img src="img/week3research.png" height="40" alt=""></a>
+
+        <p></p>
+    </div>
+
+    <footer><strong>Luke Switzer . AVF0113 <a href="index.html">. Home</a> <a href="https://github.com/lswitzer/bearded-danger/tree/gh-pages/AVF">&nbsp; . Code</a></strong></footer><br>
+    <script type="text/javascript" src="js/index.js">
+</script><script type="text/javascript" src="cordova-2.3.0.js">
+</script><script type="text/javascript" src="js/jquery.js">
+</script><script type="text/javascript" src="js/foundation.min.js">
+</script>
+</body>
+</html>

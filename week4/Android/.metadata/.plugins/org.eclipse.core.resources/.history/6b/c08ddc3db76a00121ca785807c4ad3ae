@@ -1,0 +1,125 @@
+
+/*
+Willson Ayotte
+Full Sail University
+Advanced Visual Frameworks
+Week 1 Project 1
+*/
+
+.list-divider{
+	background: black;
+    color: white;
+    text-shadow: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+
+.ui-body {
+	background-image: url("../images/stonebg.png");
+}
+
+.ui-page {
+	background-image: url("../images/stonebg.png");
+}
+
+.ui-footer {
+	padding: 0 0 0 10px;
+}
+
+section ul{
+	box-shadow: 2px 2px 8px black;
+	border-radius: 10px;
+    padding: 0;
+    background: white;
+    margin: 0 0 15px 0;
+}
+section ul li{
+	border-top: 1px dotted lightgray;
+    color: black;
+    display: block;
+    padding: 8px 0px 8px 20px;
+}
+
+ul{
+	box-shadow: 2px 2px 8px black;
+	border-radius: 10px;
+    padding: 0;
+    background: black;
+    margin: 0 0 40px 0;
+}
+
+ul li{
+	border-top: 1px dotted lightgray;
+    color: black;
+    display: block;
+    padding: 8px 0px 8px 20px;
+}
+
+/*.tweets{
+	background-color: white;
+}*/
+
+.apiLink {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+
+.tweets li{
+	background-color: white;
+	box-shadow: 2px 2px 8px black;
+	border: 1px dotted black;
+	margin: 5px 15px 15px 30px;
+	padding: 5px 5px 5px 20px;
+	width: 40%;
+	height: 250px;
+	border-radius: 10px;
+	float: left;
+}
+
+.flickr {
+	background-color: transparent;
+	margin: 30px 40px 30px 40px;
+	border-radius: 10px;
+	float: left;
+}
+
+@media all and (min-width: 650px){	
+	.left_side {
+		float: left;
+		width: 45%;
+		margin: 30px 0 20px 20px;
+		padding: 0 20px 0 0;
+	}
+	.right_side {
+		float: right;
+		width: 45%;
+		margin-top: 30px;
+		padding-right: 1%;
+	}
+}
+
+.leftside {
+		min-width: 650px
+		float: left;
+		width: 45%;
+		margin: 30px 0 20px 20px;
+		padding: 0 20px 0 0;
+}
+
+.rightside{
+		min-width: 650px
+		float: right;
+		width: 45%;
+		margin-top: 30px;
+		padding-right: 1%;
+}
+
+body {
+background: black;
+}

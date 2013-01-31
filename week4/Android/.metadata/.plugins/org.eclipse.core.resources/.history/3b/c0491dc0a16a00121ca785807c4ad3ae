@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta charset="utf-8">
+        <meta name="description" content="Description">
+        <meta name="keywords" content="Concert, Music, CRUD, FullSail">
+        <meta name="robots" content="index, follow">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Api Explorer</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/modernizr.foundation.js"></script>
+
+
+
+<script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+    </head>
+
+    <body>
+        <!-- Main Launch Page with api options -->
+       <div style="float: left; ">
+    <ul>
+
+            <img src="img/bigLogo.png">
+
+</ul>
+</div>
+
+        <br style="clear: left;" />
+       <div style="float: left; width: 42%;">
+       <ul>
+       <li>
+         <h1>Native Functionality</h1>
+
+        <!-- API Listing --> <span for="ios">iOS and Android Functions</span>
+
+        <a href="geolocation.html">
+            <h2>Geolocation</h2>
+        </a>
+       </li><li>
+        <a href="compass.html">
+            <h2> Compass</h2>
+        </a>
+       </li><li>
+        <a href="accel.html">
+            <h2> Accelerometer </h2>
+        </a>
+       </li>
+       <li>
+        <a href="notification.html">
+            <h2> Notifications</h2>
+        </a></li>
+       </ul>
+       </div>
+
+       <div style="float: right; width: 42%;">
+       <ul>
+       <li>
+         <h1>Weekly Reflection Videos</h1>
+         	<span>Progression Demos</span>
+
+        <a href="week1video.html">
+            <h2> Week 1 - Layout </h2>
+        </a></li><li>
+        <a href="week2video.html">
+            <h2> Week 2 - API's</h2>
+        </a></li>
+        <li>
+        <a href="week3video.html">
+            <h2> Week 3 - Native Functions </h2>
+        </a></li>
+        <li>
+        <a href="#">
+            <h2> Week 4 - Final App</h2>
+        </a></li>
+
+       </ul>
+       </div>
+
+
+
+
+<div style="float: left; width: 42%;">
+       <ul>
+       <li>
+
+        	<h1>JSON Data</h1>
+ <span for="json">Public API's</span>
+       </li><li>
+        <a href="twitterApi.html" id="twitterButton" class="twitter">
+            <h2>Twitter Search API</h2>
+        </a>
+        </li><li>
+        <a href="flikrAPI.html" id="flikrButton" class="flikr">
+            <h2>Flikr Photo API</h2>
+        </a>
+        </li><li>
+           <a href="jailbaseApi.html" id="jailButton" class="jailbase">
+            <h2>JailBase Arrest API</h2>
+        </a>
+        </li>
+       </ul>
+</div>
+    </body>
+        <!-- Need to add research data section here -->
+<div style="float: right; width: 42%; ">
+<ul>
+<li>
+<h1>Research Data</h1>
+<span>Industry / Api </span>
+</li><li>
+        <a href="week1research.html">
+            <h2> Week 1 </h2>
+        </a>
+		</li><li>
+        <a href="week2research.html">
+            <h2> Week 2 </h2>
+        </a>
+        </li><li>
+        <a href="week3research.html">
+            <h2> Week 3 </h2>
+        </a>
+        </li>
+</ul>
+<p> </p>
+
+
+</body>
+
+    <footer> <strong>Luke Switzer . AVF0113 <a href="index.html"> . Home</a>  <a href="https://github.com/lswitzer/bearded-danger/tree/gh-pages/AVF">&nbsp; . Code</a></strong> </footer><br>
+
+
+    <script type="text/javascript" src="cordova-2.3.0.js"></script>
+    	<script type="text/javascript" src="js/jquery.js"></script>
+    	<script type="text/javascript" src="js/foundation.min.js"></script>
+
+</html>
