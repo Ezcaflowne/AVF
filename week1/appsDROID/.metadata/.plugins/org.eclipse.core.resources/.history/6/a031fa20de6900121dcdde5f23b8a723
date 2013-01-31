@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta charset="utf-8">
+        <meta name="description" content="Description">
+        <meta name="keywords" content="Concert, Music, CRUD, FullSail">
+        <meta name="robots" content="index, follow">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Api Browser</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+        </head>

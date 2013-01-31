@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<!--
+ Willson Ayotte
+ Full Sail University
+ Advanced Visual Frameworks
+ Week 1 Project 1
+ -->
+
+<html lang="en">
+    <head>
+        <title>AVF Launch Page</title>
+        <script type="text/javascript" charset="utf-8" src="js/cordova-2.3.0.js"></script>
+        <meta type="robots" content="index,follow" />
+
+        <!--  Mobile viewport optimized -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ClearType for smoothing fonts -->
+        <meta http-equiv="cleartype" content="on">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+
+        <!-- Modernizr -->
+        <script src="js/modernizr.custom.min.js"></script>
+
+        <!-- call custom style sheets last -->
+        <link rel="stylesheet" href="css/styles.css" />
+
+    </head>
+
+    
+	<body>
+        <div data-role="page" id="home" data-theme="d" data-add-back-btn="true">
+            <div data-role="header" id="header"></div>
+            <div data-role="content">
+                
+                <section class="left_side">
+                    
+                    <ul>
+                        <li class="list-divider">Top Assets</li>
+                        <li>
+                            Willson Ayotte<br>
+                            AVF1301<br>
+                            Full Sail University<br>
+                            Advanced Visual Frameworks<br>
+                            Ezcaflowne@fullsail.edu<br>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="list-divider">GitHub Links</li>
+                        
+                        <li>
+                            CRUD: <br /><a href="https://github.com/Ezcaflowne/AVF/tree/master/week1/wk1_crud">github</a>
+                            <a href="http://ezcaflowne.github.com/AVF/week1/wk1_crud/index.html">gh-pages</a>
+                            <a href="https://ezcaflowne.cloudant.com/project4/_design/app/index.html">Cloudant</a><br />
+                            AVF:  <br /><a href="https://github.com/Ezcaflowne/AVF/tree/master/week1">github</a>
+                            <a href="http://ezcaflowne.github.com/AVF/week1/appsIOS/www/index.html">gh-pages</a>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="list-divider">IOS / Android Native Feature Demos</li>
+                        <li><a href="geolocation.html">Geolocation</a></li>
+                        <li><a href="notification.html">Notification: Alert</a></li>
+                        <li><a href="acclerometer.html">Acclerometer</a></li>
+                        <li><a href="compass.html">Compass</a></li>
+                        <li><a href="camera.html">Camera</a></li>
+                        <li><div>Storage</div></li>
+                    </ul>
+                </section>
+                
+                <section class="right_side">
+                    <ul>
+                        <li class="list-divider">Research</li>
+                        <li><a href="#discuss1" data-rel="dialog">Data Research, Project Intent</a></li>
+                        <li><a href="#discuss2" data-rel="dialog">Accessibility</a></li>
+                        <li>Industry Research</li>
+                        <li>Week Four Discussion</li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="list-divider">Reflection Videos</li>
+						<li>
+							<a href="video.html">Test Video (Week One)</a>
+						</li>
+						<li>
+							<a href="http://www.youtube.com/watch?v=18CUBpS6mzo">Week One Reflection</a>
+						</li>
+                        <li>
+                            <a href="http://www.youtube.com/watch?v=7AmBJ2HPhaE">Week Two Reflection</a>
+                        </li>
+						<li>
+							<a href="#">Week Three Reflection</a>
+						</li>
+						<li>
+							Week Four Reflection
+						</li>
+					</ul>
+                    
+					<ul>
+                        <li class="list-divider">JSON-P Data APIs</li>
+						<li>
+                            <a href="twitter.html" data-backbutton="true">Titter API</a>
+						</li>
+						<li>
+							<a href="flickr.html" data-backbutton="true">Flicker API</a>
+						</li>
+					</ul>
+                </section>
+                
+            </div>
+            
+            <div data-role="footer" id="footer" data-position="fixed"></div>
+        </div>
+
+        <div data-role="page" id="discuss1">
+            <div data-role="header" id="header"><a href="#home" data-role="button" data-icon="home" data-iconpos="notext">Home</a><center><h1>AVF Launch Page</h1></center></div>
+            <div data-role="content" id="content">
+                <h2>Research: Week 1 Discussion</h2>
+                <p>
+                <h3>Less obvious perks of using 'live' data resources include logins and payments. How could Twitter be used in these two scenarios?</h3>
+                Twitter is something that I don't use very much or if at all. Most of my friends don't really use it all that much either, applications remind me of fads that come and go. I'm not saying Twitter is going out the door, but I think they are trying to make it more popular. By adding payment options through Twitter could make it more popular, but Facebook is already in place and used by way more of a majority of the public than Twitter, and i don't see that this would make much difference. I guess I could relate this to Apple's Passport application, it's a great idea, it has potential to be something that everyone can use, but without everyone else jumping on the bandwagon it hasent made it too far, and i keep checking back on it from time to time. There are a little more businesses using it, but not very much, and the ones that are using it arnt ones that could make this application have its jump start.
+                </p>
+                <p>
+                <h3>Visit Programmableweb.com and search for JSON-P data sources. Why would we need JSON-P, specifically?</h3>
+                I would need JSON-P specifically for accessing apartment information when im not on my current property, selecting the property that I'm currently on would update to my device and would be able to know what needs to be done without even having to ask the supervisor in charge. As for developers it specifically allows them to load data directly on the client side no matter where the location of the server.
+                </p>
+                <p>
+                <h3>Based on the JSON-P search results: what data resource(s) do you think might pair well with which types of Native device features?</h3>
+                Based on what was found some of them are not compatible, but there are quite a few that could pair, some basic ones that many users today use are maps, like geolocation, camera for taking pictures and when you take that picture you would like to show everyone where your at and what your doing, so having some type of social, which uses geolocation again, to show where you posted this picture from etc..
+                </p>
+                <p>
+                <h3>Please describe any design and functionality intentions you may have for your Demo app components this month.</h3>
+                The functionality I choose I thought would go very well with my CRUD application I had originally made. The application that i made keeps track of apartments that have become vacant, and keeps track of when the apartments will be ready. So choosing Geolocation, to locate what apartment your currently working on, and who could be working at others around you. Having notifications to remind you when an apartment is coming close to the date that is supposed to be ready. An accelerometer to keep track of how many miles or steps your take a day. I know from personal experience I've always wanted to know how many miles i walk a day working in this kind of industry. The Camera to take pictures of appliance model numbers or other parts that have broke and need to find a replacement, saving them into a database and later retrieving them for viewing purposes. 
+                </p>
+                <p>
+                As for the Data APIs I choose, i would like to know how to implement a forum into an application. There are many forums that I use and if i have the know-how to put them all into an application that i can just open one of them up and view them all at the same time, plus minimizing the amount of individual forum applications that i have downloaded, it's just a personal preference. Adding a twitter api to my crud app would be useful, one being chatting between properties with other people using that application. 
+                </p>
+                <p>
+                <h3>Briefly describe some past 'lessons learned' regarding workflow as it relates to research, design, development, etc.</h3>
+                Workflow is something that comes and goes with me, sometimes I'm working well and setting that time aside to really work hard on my homework, and then sometimes if i get discouraged that messes up my workflow and then comes procrastination. Even though if my workflow is either going good, or bad, i always use all the time that is allotted to me, i never turn anything in early, because something could always be changed or made better. In this field nothing is ever completed, its a work in progress.
+                </p>
+            </div>
+            <div data-role="footer" id="footer" data-position="fixed">Willson Ayotte - Full Sail University - AVF - 1301</div>
+        </div>
+
+        <div data-role="page" id="discuss2">
+            <div data-role="header" id="header"><a href="#home" data-role="button" data-icon="home" data-iconpos="notext">Home</a><center><h1>AVF Launch Page</h1></center></div>
+            <div data-role="content" id="content">
+                <h2>Research: Week 1 Discussion</h2>
+                <p>
+                <h3>What are some of the ways that you could change your HTML on your Demo app to be more accessible? (Remember, you can use the Section tag with jQuery, for instance)</h3>
+                I would have to say, loose my multiple id tags with the same name, remove my inline JavaScript calls (big no no) Make more section tags for my other pages, like the instance with my Twitter search for my android, the sections I made for each tweet is a little deformed and I can see what some things don’t flow so well when you work from iOS to Android, or visa versa.
+                </p>
+                <p>
+                <h3>Visit a video service on the web (like YouTube) and search for "Screen Reader Demo" and "Mobile Screen Reader" - what are some of the common frustrations (or common support mechanisms) that you see among the examples that are given - how could you fix them (or use them)?</h3>
+                I was watching Thunder screen reader demo, this is the first time that I have ever seen a blind person use a computer. I’ve got to say, wow it worked, the voice was a little annoying, even the guy was getting to that point. Maybe a way to make this better would be to alphabetize the links on the page. I like in the video the computer would say, “list item” before it read another link.
+                As far as the mobile video goes, I only found the blackberry screen reader app video the one worth watching, as it was an actual demo video and not just some person in a high echo room with a video camera. Id say a mobile device that either A) uses brail keys with an OS that has been stripped of all the visual aspects, perhaps no screen at all just a phone with buttons all over the front of it. B) If one were to have a screen with no buttons like an iPhone perhaps having the built in apps setup in a certain order, and then anything else that is added would just be appended to the end of the list.
+                </p>
+                <p>
+                <h3>Devices: Please list two devices (and some of their features) that are made specifically to support Accessibility.</h3>
+                Accessibility is becoming more and more known now days, its a market thats just getting started and of course theres money to be made in a market thats so new. One thing that Im not sure qualifies as an accessibility device, but the other day I seen this device that you would put on the back of the deadbolt latch of your front door, and when you typed the code in correctly lets say for your front door on the iPhone app that goes with the device, the deadbolt would unlock, and the front door would be open. I thought this was very cool, less keys hooray!
+                Another one I had personally used the other day for an older friend that couldnt see how much the bill was Macaroni Grill, I whipped out the old magnify app and zoomed it in for her, haha. It worked great though and she was shocked that it worked so well.
+                </p>
+                <p>
+                <h3>Mobile Apps: Please list two apps (either Android or iOS, or both) that are made specifically to support Accessibility.</h3>
+                I had to go to my iPhones Accessibility menu just to see what they had. I went to it before way back when the ip4 first came out and I liked the inverted colors, just because I was new and didn’t know what jailbreaking was, it gave me something new to look at. As I look at it now on my ip5 I have got to say Hearing Aids it awesome feature, as my sister-in-laws dad owns a hearing aid company and makes me wonder if his product works with the iPhone. As for the Android I would have to say the text-to-speech feature is great for an accessibility app. This is also a feature on the iPhone but I do believe it came out first on the very first Droid, which made me a little uneasy being I just bought the iPhone and everyone was rubbing their Androids in my face… aye..
+                </p>
+            </div>
+            <div data-role="footer" id="footer" data-position="fixed">Willson Ayotte - Full Sail University - AVF - 1301</div>
+        </div>
+
+    <!--jquery and jquery mobile-->
+    <script type="text/javascript" src="cordova-2.3.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+
+    <!--plugins-->
+    <script src="http://html5.kaltura.org/js"></script>
+
+    <!--custom js-->    
+    <script type="text/javascript" src="js/main.js"></script>
+
+    </body>
+</html>

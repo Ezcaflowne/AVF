@@ -1,0 +1,285 @@
+/*
+  Luke Switzer
+  MIU 1208
+  Trail Tracker
+*/
+html {
+	background:#f4f4f4;
+	font-size: medium;
+}
+
+
+img{
+
+	margin: 2px;
+	padding: 2px;
+	-moz-box-shadow:0 0 .5em rgba(0,0,0,.5);
+	-webkit-box-shadow:0 0 .5em rgba(0,0,0,.5);
+	box-shadow:0 0 1em rgba(0,0,0,.5);
+
+}
+a:-webkit-any-link {
+	text-decoration:none;
+	font-family:"DinCond","Helvetica CY","Arial";
+	color:#DDD;
+}
+body{
+	margin-bottom: 10px;
+}
+.ui-header .ui-title{
+    margin: 0.3em 70px 0.7em 10px;
+    background-image:url(/images/logo.jpg);
+    background-repeat:no-repeat;
+    background-position:0 0px;
+    width:100%;
+    height:100%;
+ }
+a:-webkit-any-link:hover {
+	color:#fff;
+}
+
+.ui-page { -webkit-backface-visibility: hidden; }
+nav {
+	margin:0;
+	margin-bottom:5px;
+	padding:0;
+	border:none;
+}
+
+h1 {
+	font-family:"DinCond","Helvetica";
+	margin-bottom: 0px;
+	color:#000;
+	padding:10px;
+	background-color:#45433c;
+	margin-top:10px;
+
+
+
+	color:#fff;
+	font-size: small;
+}
+
+
+h2 {
+	text-align:left;
+	font-family:"Arial","Helvetica Neue";
+	border-radius:10px;
+	background:rgba(48,95,160,1);
+	color:#fff;
+	font-size:small;
+	line-height:40px;
+	text-align:center;
+	border:1px solid #fff;
+		-moz-box-shadow:0 0 .5em rgba(0,0,0,.5);
+	-webkit-box-shadow:0 0 .5em rgba(0,0,0,.5);
+	box-shadow:0 0 1em rgba(0,0,0,.5);
+}
+
+h3 {
+	font-family:Helvetica;
+	color:#000;
+	font-size:medium;
+}
+
+
+h4 {
+	text-align:left;
+	font-family:"Arial","Helvetica Neue";
+	border-radius:10px;
+	background:#526485;
+	color:#fff;
+	font-size:small;
+	line-height:40px;
+	text-align:center;
+	border:1px solid #fff;
+		-moz-box-shadow:0 0 .5em rgba(0,0,0,.5);
+	-webkit-box-shadow:0 0 .5em rgba(0,0,0,.5);
+	box-shadow:0 0 1em rgba(0,0,0,.5);
+}
+
+fieldset {
+	padding:10px;
+	padding-bottom:0;
+	font-size:medium;
+	font-family:"DinCond","Helvetica Neue";
+	text-align:left;
+	border-color:#fff;
+	color:#000;
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+li {
+	display:block;
+	text-align:left;
+	color:#000;
+	font-family:"Arial";
+	font-size: small;
+	border-bottom: 1px solid black;
+}
+
+div#items {
+	background:none;
+	position:relative;
+	display:inline;
+	width:100%;
+	font-family:"Arial Black";
+	color:rgba(0,0,0,0.5);
+	text-align:left;
+}
+
+form {
+	-moz-border-radius:5px;
+	border-radius:5px;
+	font-family:"Teen","Helvetica Neue";
+	font-size:large;
+}
+
+div#items ul {
+	position:relative;
+	width:93%;
+	font-family:'Helvetica';
+	border-radius:3px;
+	background:f#4c4f80 border: 1px solid #fff;
+	-moz-box-shadow:0 0 1em rgba(0,0,0,.5);
+	-webkit-box-shadow:0 0 1em rgba(0,0,0,.5);
+	box-shadow:0 0 1em rgba(0,0,0,.5);
+	line-height:30px;
+	padding:5px;
+	margin:0 5px 10px;
+	font-family:"Teen";
+	font-size:12px;
+	color:rgba(0,0,0,0.5);
+	color:#593a08;
+	text-align:left;
+	margin:0;
+}
+
+
+
+
+span {
+	text-align:center;
+	font-size:smaller;
+	line-height:20px;
+	max-width:400px;
+	color: black;
+	display:block;
+	-moz-box-shadow:0 0 .5em rgba(0,0,0,.5);
+	-webkit-box-shadow:0 0 .5em rgba(0,0,0,.5);
+	box-shadow:0 0 1em rgba(0,0,0,.5);
+	text-shadow: 0px 0px 1px black;
+	font-size: medium;
+	text-align: left;
+	font-family: "Teen";
+	padding: 3px;
+	padding-left: 10px;
+}
+
+input {
+	-moz-border-radius:5px;
+	border-radius:5px;
+	font-family:"Teen","Helvetica Neue";
+	font-size:medium;
+	margin:6px;
+}
+
+textarea {
+	-moz-border-radius:5px;
+	border-radius:5px;
+	font-family:"Teen","Helvetica Neue";
+	font-size:large;
+}
+
+textarea:focus {
+	background:#2c2a2a;
+	color:#fff;
+}
+
+input:focus {
+	background:#2c2a2a;
+	color:#fff;
+}
+
+input[type="submit"] {
+	display:block;
+	margin-top:10px;
+	margin-bottom:20px;
+	margin-right:auto;
+	margin-left:auto;
+	color:#2a2a2a;
+	width:155px;
+	height:3em;
+	font-family:sans-serif;
+	font-size:13px;
+	font-weight:700;
+	text-align:center;
+}
+
+div {
+	color:rgba(0,0,0,0.5);
+	padding:6px;
+
+	margin-top:6px;
+}
+
+
+
+footer {
+text-decoration:none;
+	font-family:"DinCond","Helvetica CY","Arial";
+	color:#DDD;
+    position: fixed;
+   left:0px;
+   bottom:0px;
+   height:15px;
+   width:100%;
+    margin-bottom: 0px;
+	padding:5px;
+
+	background-color:#45433c;
+
+	font-size: medium;
+    margin-top: 20px;
+
+
+}
+
+
+/* iphone */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+img {
+	max-width:100%;
+}
+}
+
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+img {
+	max-width:100%;
+}
+}
+
+@font-face {
+	font-family:Teen;
+	src:url(css/fonts/teen.svg) format (svg);
+}
+
+@font-face {
+	font-family:Cracked;
+	src:url(css/fonts/Cracked.otf) format (otf);
+}
+
+@font-face {
+	font-family:Gotham;
+	src:url(/fonts/Gotham-Medium.svg) format (svg);
+}
+
+@font-face {
+	font-family:DinCond;
+	src:url(/fonts/DinCond.otf) format (otf);
+}

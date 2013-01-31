@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta charset="utf-8">
+        <meta name="description" content="Description">
+        <meta name="keywords" content="Concert, Music, CRUD, FullSail">
+        <meta name="robots" content="index, follow">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Api Browser</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+        </head>
+        
+        <body>
+        <!-- Main Launch Page with api options -->
+        <h1>Week 1 Research</h1>
+        <!-- API Listing --><span>Industry Standards . 01-12-2013</span>
+
+        <div style="float: left; width: 42%;">
+            <ul>
+
+                    <strong>Less obvious perks of using 'live' data resources include logins and payments. How could Twitter be used in these two scenarios?</strong>
+ <li>
+                    <p>Twitter isn’t something I see as something to look out for in future application
+                    login and payment screens. The fact is, it’s a social media agent reaching
+                    far shallower than google’s or amazon’s systems of payment. These are accounts
+                    that most web users have, and feel comfortable using. I don’t use twitter,
+                    and personally wouldn’t feel comfortable paying or supplying login credentials
+                    to any site I had to provide credentials to simply to pay or sign in to
+                    another.
+                    </p>
+                </li>
+
+                    <strong><strong>Visit Programmableweb.com and search for JSON-P data sources. Why would we need JSON-P, specifically?</strong></strong>
+<li>
+                    <p>JSON-P data sources are crucial for the modification and accessibility
+                    of files on a remote level. For example, in an app I want to create I would
+                    like to integrate the options for users to have access to others saved
+                    data if they choose to share it. The JSON-P data would handle this type
+                    of string data very well.</p>
+                </li>
+            </ul>
+        </div>
+        <div style="float: right; width: 42%;">
+            <ul>
+
+                    <strong>Based on the JSON-P search results: what data resource(s) do you think might pair well with which types of Native device features?</strong>
+ <li>
+                    <p>Building on the question above, if the app saved your ski runs I would
+                    incorporate the maps app and the accelerometer combined with the camera
+                    functionality to truly save your run. Geolocation is the basis of the maps
+                    API and the compass could also help navigate your way around the mountains.</p>
+                </li>
+
+                    <strong>Please describe any design and functionality intentions you may have for your Demo app components this month.</strong>
+ <li>
+                    <p>I do plan to overhaul my CSS, as I’ve used very similar styles in other
+                    apps I made in prior classes. The css buttons are nice, but I see them
+                    all over the web, and if not done correctly they have a tendency to look
+                    awful. I’m looking into @font-face and including elements that may be saved
+                    in the browsers cache (like simple arrow buttons and such). I also want
+                    to learn to properly pull data from the ESPN player API, this would give
+                    me the ability to put real time stats into sports apps.</p>
+                </li>
+
+                    <strong>Briefly describe some past 'lessons learned' regarding workflow as it relates to research, design, development, etc.</strong>
+<li>
+                    <p>Workflow is very much person to person and what I’ve found to work the
+                    best is to give yourself adequate time to layout the app and the pages,
+                    folders, images, etc before even sitting down to the computer. I go in
+                    knowing how many html, js, css etc files to create and build from there.
+                    The development seems to flow from this and style is usually something
+                    I force to be a work in progress, adapting to components I add. I used
+                    to concentrate for hours on aesthetics when I should have been worried
+                    about layout and functionality.</p>
+                    <br/>
+                </li>
+            </ul>
+
+        </div>
+        <div style="float: left;">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="img/bigLogo.png">
+                            </a>
+                    <p></p>
+                    <br/>
+                </li>
+            </ul>
+        </div>
+    </body>
+    
+    <footer>
+    <strong>Willson Ayotte . AVF1301 <a href="index.html">Home</a></strong>
+    </footer>
+    <br>
+    
+    
+</html>

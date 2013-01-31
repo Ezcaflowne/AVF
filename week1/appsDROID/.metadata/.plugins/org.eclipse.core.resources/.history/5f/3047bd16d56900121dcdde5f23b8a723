@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<!--
+ Willson Ayotte
+ Full Sail University
+ Advanced Visual Frameworks
+ Week 1 Project 1
+ -->
+
+<html lang="en">
+	<head>
+		<title>AVF Launch Page</title>
+        
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+                
+        <!--  Mobile viewport optimized -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        
+        <!-- JQM Style Sheet -->
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+                        
+        <!-- Modernizr -->
+        <script src="js/modernizr.custom.min.js"></script>
+                        
+        <!-- style sheet-->
+        <link rel="stylesheet" href="css/styles.css" />
+                        
+    </head>
+    
+	<body>
+        <div data-role="page" id="home" data-theme="d" data-add-back-btn="true">
+            <div data-role="header" id="header"></div>
+            <div data-role="content">
+                
+                <section class="left_side">
+                    
+                    <ul>
+                        <li class="list-divider">Personnel Info</li>
+                        <li>
+                            Willson Ayotte<br>
+                            AVF1301<br>
+                            Full Sail University<br>
+                            Advanced Visual Frameworks<br>
+                            Ezcaflowne@fullsail.edu<br>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="list-divider">GitHub Links</li>
+                        
+                        <li>
+                            CRUD: <br /><a href="https://github.com/Ezcaflowne/AVF/tree/master/week1/wk1_crud">github</a>
+                            <a href="http://ezcaflowne.github.com/AVF/week1/wk1_crud/index.html">gh-pages</a>
+                            <a href="https://ezcaflowne.cloudant.com/project4/_design/app/index.html">Cloudant</a><br />
+                            AVF:  <br /><a href="https://github.com/Ezcaflowne/AVF/tree/master/week1">github</a>
+                            <a href="http://ezcaflowne.github.com/AVF/week1/appsIOS/www/index.html">gh-pages</a>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="list-divider">IOS / Android Native Feature Demos</li>
+                        <li><div id="ios_android"></div>Geolocation</li>
+                        <li><div id="ios_android"></div>Notifications</li>
+                        <li><div id="ios_android"></div>Accelerometer</li>
+                        <li><div id="ios"></div>Media</li>
+                        <li><div id="ios"></div>Camera</li>
+                        <li><div id="ios">Storage</div></li>
+                    </ul>
+                </section>
+                
+                <section class="right_side">
+                    <ul>
+                        <li class="list-divider">Research</li>
+                        <li><a href="#discuss1" data-rel="dialog">Data Research, Project Intent</a></li>
+                        <li>Accessibility</li>
+                        <li>Industry Research</li>
+                        <li>Week Four Discussion</li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="list-divider">Reflection Videos</li>
+						<li>
+							<a href="video.html">Test Video</a>
+						</li>
+						<li>
+							Week Two Reflection
+						</li>
+						<li>
+							Week Three Reflection
+						</li>
+						<li>
+							Week Four Reflection
+						</li>
+					</ul>
+                    
+					<ul>
+                        <li class="list-divider">JSON-P Data APIs</li>
+						<li>
+                            <a href='twitter.html'>Titter API</a>
+						</li>
+						<li>
+							<a href="flickr.html">Flicker API</a>
+						</li>
+					</ul>
+                </section>
+                
+            </div>
+            
+            <div data-role="footer" id="footer" data-position="fixed"></div>
+        </div>
+
+
+
+        <div data-role="page" id="discuss1">
+            <div data-role="header" id="header"><a href="#home" data-role="button" data-icon="home" data-iconpos="notext">Home</a><center><h1>AVF Launch Page</h1></center></div>
+            <div data-role="content" id="content">
+                <h2>Research: Week 1 Discussion</h2>
+                <p>
+                <h3>Less obvious perks of using 'live' data resources include logins and payments. How could Twitter be used in these two scenarios?</h3>
+                Twitter is something that I don't use very much or if at all. Most of my friends don't really use it all that much either, applications remind me of fads that come and go. I'm not saying Twitter is going out the door, but I think they are trying to make it more popular. By adding payment options through Twitter could make it more popular, but Facebook is already in place and used by way more of a majority of the public than Twitter, and i don't see that this would make much difference. I guess I could relate this to Apple's Passport application, it's a great idea, it has potential to be something that everyone can use, but without everyone else jumping on the bandwagon it hasent made it too far, and i keep checking back on it from time to time. There are a little more businesses using it, but not very much, and the ones that are using it arnt ones that could make this application have its jump start.
+                </p>
+                <p>
+                <h3>Visit Programmableweb.com and search for JSON-P data sources. Why would we need JSON-P, specifically?</h3>
+                I would need JSON-P specifically for accessing apartment information when im not on my current property, selecting the property that I'm currently on would update to my device and would be able to know what needs to be done without even having to ask the supervisor in charge. As for developers it specifically allows them to load data directly on the client side no matter where the location of the server.
+                </p>
+                <p>
+                <h3>Based on the JSON-P search results: what data resource(s) do you think might pair well with which types of Native device features?</h3>
+                Based on what was found some of them are not compatible, but there are quite a few that could pair, some basic ones that many users today use are maps, like geolocation, camera for taking pictures and when you take that picture you would like to show everyone where your at and what your doing, so having some type of social, which uses geolocation again, to show where you posted this picture from etc..
+                </p>
+                <p>
+                <h3>Please describe any design and functionality intentions you may have for your Demo app components this month.</h3>
+                The functionality I choose I thought would go very well with my CRUD application I had originally made. The application that i made keeps track of apartments that have become vacant, and keeps track of when the apartments will be ready. So choosing Geolocation, to locate what apartment your currently working on, and who could be working at others around you. Having notifications to remind you when an apartment is coming close to the date that is supposed to be ready. An accelerometer to keep track of how many miles or steps your take a day. I know from personal experience I've always wanted to know how many miles i walk a day working in this kind of industry. The Camera to take pictures of appliance model numbers or other parts that have broke and need to find a replacement, saving them into a database and later retrieving them for viewing purposes. 
+                </p>
+                <p>
+                As for the Data APIs I choose, i would like to know how to implement a forum into an application. There are many forums that I use and if i have the know-how to put them all into an application that i can just open one of them up and view them all at the same time, plus minimizing the amount of individual forum applications that i have downloaded, it's just a personal preference. Adding a twitter api to my crud app would be useful, one being chatting between properties with other people using that application. 
+                </p>
+                <p>
+                <h3>Briefly describe some past 'lessons learned' regarding workflow as it relates to research, design, development, etc.</h3>
+                Workflow is something that comes and goes with me, sometimes I'm working well and setting that time aside to really work hard on my homework, and then sometimes if i get discouraged that messes up my workflow and then comes procrastination. Even though if my workflow is either going good, or bad, i always use all the time that is allotted to me, i never turn anything in early, because something could always be changed or made better. In this field nothing is ever completed, its a work in progress.
+                </p>
+            </div>
+            <div data-role="footer" id="footer" data-position="fixed">Willson Ayotte - Full Sail University - AVF - 1301</div>
+        </div>
+
+        
+        <!--jquery and jquery mobile-->
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+        
+        <!--javascript-->	
+        <script type="text/javascript" src="js/main.js"></script>
+        
+	</body>
+</html>

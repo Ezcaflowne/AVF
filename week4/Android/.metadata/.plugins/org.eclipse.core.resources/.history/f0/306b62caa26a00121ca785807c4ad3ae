@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta charset="utf-8">
+        <meta name="description" content="Description">
+        <meta name="keywords" content="Concert, Music, CRUD, FullSail">
+        <meta name="robots" content="index, follow">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Api Explorer</title>
+        
+        <meta http-equiv="cleartype" content="on">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+        <script src="js/modernizr.custom.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+    </head>
+
+    <body>
+        <div data-role="page" id="home" data-theme="d" data-add-back-btn="true">
+            <div data-role="header" id="header"></div>
+            <div data-role="content">
+                
+                <section class="left_side">
+                    
+                    <ul>
+                        <li class="list-divider">Personal Info</li>
+                        <li>
+                            Willson Ayotte<br>
+                            AVF1301<br>
+                            Full Sail University<br>
+                            Advanced Visual Frameworks<br>
+                            Ezcaflowne@fullsail.edu<br>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="list-divider">GitHub Links</li>
+                        
+                        <li>
+                            CRUD: <br /><a href="https://github.com/Ezcaflowne/AVF/tree/master/week1/wk1_crud">github</a>
+                            <a href="http://ezcaflowne.github.com/AVF/week1/wk1_crud/index.html">gh-pages</a>
+                            <a href="https://ezcaflowne.cloudant.com/project4/_design/app/index.html">Cloudant</a><br />
+                            AVF:  <br /><a href="https://github.com/Ezcaflowne/AVF/tree/master/week1">github</a>
+                            <a href="http://ezcaflowne.github.com/AVF/week1/appsIOS/www/index.html">gh-pages</a>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="list-divider">IOS / Android Native Feature Demos</li>
+                        <li><a href="geolocation.html">Geolocation</a></li>
+                        <li><a href="notification.html">Notification: Alert</a></li>
+                        <li><a href="acclerometer.html">Acclerometer</a></li>
+                        <li><a href="compass.html">Compass</a></li>
+                        <li><a href="camera.html">Camera</a></li>
+                        <li><div>Storage</div></li>
+                    </ul>
+                </section>
+                
+                <section class="right_side">
+                    <ul>
+                        <li class="list-divider">Research</li>
+                        <li><a href="discuss1.html" data-rel="dialog">Data Research, Project Intent</a></li>
+                        <li><a href="discuss2.html" data-rel="dialog">Accessibility</a></li>
+                        <li><a href="discuss3.html" data-rel="dialog">Industry Research</a></li>
+                        <li><a href="discuss4.html" data-rel="dialog">Week Four Discussion</a></li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="list-divider">Reflection Videos</li>
+						<li>
+							<a href="video1.html">Test Video (Week One)</a>
+						</li>
+						<li>
+							<a href="#">Week One Reflection</a>
+						</li>
+                        <li>
+                            <a href="#">Week Two Reflection</a>
+                        </li>
+						<li>
+							<a href="#">Week Three Reflection</a>
+						</li>
+						<li>
+							Week Four Reflection
+						</li>
+					</ul>
+                    
+					<ul>
+                        <li class="list-divider">JSON-P Data APIs</li>
+						<li>
+                            <a href="twitter.html" data-backbutton="true">Titter API</a>
+						</li>
+						<li>
+							<a href="flickr.html" data-backbutton="true">Flicker API</a>
+						</li>
+					</ul>
+                </section>
+                
+            </div>
+            
+        </div>
+</body>
+
+    <footer> <strong>Willson Ayotte - AVF1301 <a href="index.html">Home</a></strong></footer><br>
+
+
+    <script type="text/javascript" src="cordova-2.3.0.js"></script>
+    	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+    	<script type="text/javascript" src="js/foundation.min.js"></script>
+
+</html>
