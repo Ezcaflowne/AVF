@@ -1,0 +1,201 @@
+
+/*
+Willson Ayotte
+Full Sail University
+Advanced Visual Frameworks
+Week 1 Project 1
+*/
+
+.list-divider{
+	background: black;
+    color: white;
+    text-shadow: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+
+#home{
+	box-shadow: 2px 2px 8px black;
+	background-color: white;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+	margin: 0px 0px 0px 5px;
+}
+
+#advSpan{
+	background: white;
+    color: black;
+    text-shadow: none;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px black;
+	margin: 0px 0px 0px 30px;
+	padding: 5px 20px 5px 20px;
+	border-radius: 10px;
+}
+
+#local-storage-result{
+	background: white;
+    color: black;
+    text-shadow: none;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px black;
+	margin: 0px 0px 0px 30px;
+	padding: 5px 20px 5px 20px;
+	border-radius: 10px;	
+}
+
+.info{
+	font-family:"Papyrus","Courier New","Arial";
+	margin: 0px 10px 10px 30px;
+}
+
+button{
+	text-align:center;
+	box-shadow: 2px 2px 8px black;
+	background-color: black;
+	color: white;
+	padding: 5px 5em 5px 5em;
+	border-radius: 10px;
+	margin: 0px 0px 15px 7em;
+}
+
+body{
+	background-image: url("../images/stonebg.png");
+}
+
+a{
+	text-decoration:none;
+	font-family:"Papyrus","Courier New","Arial";
+	font-weight: bold;
+	color:brown;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color: black;
+}
+
+.perInfo{
+	font-family:"Papyrus","Courier New","Arial";
+	font-weight: bold;
+	color:black;
+}
+
+footer{
+	text-decoration:none;
+	font-family:"Papyrus","Courier New","Arial";
+	color:white;
+    position: fixed;
+	left:0px;
+   	bottom:0px;
+   	height:15px;
+   	width:100%;
+    margin-bottom: 0px;
+	padding:5px;
+	background-color:black;
+	font-size: medium;
+    margin-top: 20px;
+}
+
+section ul{
+	box-shadow: 2px 2px 8px black;
+	border-radius: 10px;
+    padding: 0;
+    background: white;
+    margin: 0 0 15px 0;
+}
+section ul li{
+	border-top: 1px dotted lightgray;
+    color: black;
+    display: block;
+    padding: 8px 0px 8px 20px;
+}
+
+ul{
+	box-shadow: 2px 2px 8px black;
+	border-radius: 10px;
+    padding: 0;
+    background: black;
+    margin: 0 0 40px 0;
+}
+
+ul li{
+	border-top: 1px dotted lightgray;
+    color: black;
+    display: block;
+    padding: 8px 0px 8px 20px;
+}
+
+.apiLink {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+
+#data{
+	background-color: black;
+	color: white;
+	box-shadow: 2px 2px 8px black;
+	margin: 5px 15px 15px 30px;
+	padding: 5px 5px 5px 20px;
+	border-radius: 10px;
+}
+
+#data p{
+	background: white;
+	font-family:"Papyrus","Courier New","Arial";
+	margin: 5px 30px 5px 5px;
+	padding: 5px 5px -1px 10px;
+	border-radius: 10px;
+}
+
+#data img{
+	border-radius: 10px; 
+	box-shadow: 2px 2px 8px black;
+}
+
+#data em{
+	color: blue; 
+}
+
+.flickr {
+	background-color: transparent;
+	margin: 30px 40px 30px 40px;
+	border-radius: 10px;
+	float: left;
+}
+
+@media all and (min-width: 650px){	
+	.left_side {
+		float: left;
+		width: 45%;
+		margin: 30px 0 20px 20px;
+		padding: 0 20px 0 0;
+	}
+	.right_side {
+		float: right;
+		width: 45%;
+		margin-top: 30px;
+		padding-right: 1%;
+	}
+}
+
+.mainHead{
+	background-color: white;
+	box-shadow: 2px 2px 8px black;
+	margin: 5px 15px 15px 30px;
+	padding: 5px 5px 5px 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.accTable{
+	background: white;
+}
